@@ -1,0 +1,101 @@
+/* Reset default list styles */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Header navigation styles */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  /* Active link style */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* Body background image */
+  body {
+    background-image: none; /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional, prevents scrolling */
+  }
+  
+  /* Right-aligned navigation items */
+  ul.right {
+    float: right;
+  }
+  
+  /* Additional styles for right-aligned items */
+  ul.right li a:hover:not(.active) {
+    background-color: #080303;
+  }
+  
+  /* Common button styles */
+  button {
+    border-radius: 12px;
+    padding: 12px 21px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    border-color: #f77f59;
+  }
+  
+  /* Button 1 */
+  button.btn1 {
+    width: 21%;
+    background-color: #FBDBC6;
+  }
+  
+  button.btn1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Button 2 */
+  button.btn2 {
+    width: 12%;
+    background-color: #1589ff;
+  }
+  
+  button.btn2:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Button 3 */
+  button.btn3 {
+    width: 7%;
+    background-color: #1589ff;
+  }
+  
+  button.btn3:hover {
+    background-color: rgb(50, 250, 75);
+    color: rgb(255, 0, 0);
+  }
+  
+  /* Additional styles for elements with class "tex" */
+  .tex {
+    display: block;
+    background-color: #3c3333;
+  }
+  

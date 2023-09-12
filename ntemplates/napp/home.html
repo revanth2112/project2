@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'visuals.css' %}">
+</head>
+<body>
+  <div>
+    <ul class="navbar">
+      <li><a href="/home" class="active">Home</a></li>
+      <li><a href="/hr">Hr</a></li>
+      <li><a href="/employee">Employee</a></li>
+      <li><a href="/signup">Sign Up</a></li>
+      <li><a href="/logout">Logout</a></li>
+      <li><a href="/accounts/login">Login</a></li>
+    </ul>
+  </div>
+  
+  {% block body_block %}
+  
+  <center>
+    <h1>Welcome To Programming World</h1>
+    <h1>
+      <p>Experience the world of programming with utmost enthusiasm.<br>
+        Take a thrilling ride into it.
+      </p>
+    </h1>
+  </center>
+  
+  {% endblock %}
+
+</body>
+</html>

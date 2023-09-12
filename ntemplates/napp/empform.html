@@ -1,0 +1,18 @@
+{% extends 'napp/home.html' %}
+
+{% load static %}
+
+{% block body_block %}
+
+<center>
+  <h1>Employee Form</h1>
+  
+  <form method="POST">
+	{%csrf_token%}
+	{{form.as_p}}
+  <a href="empdata.html"><button>Submit</button></a>
+  </form>
+
+</center>
+
+{% endblock %}

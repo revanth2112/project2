@@ -1,0 +1,20 @@
+{% extends 'napp/home.html' %}
+
+{%block body_block%}
+
+<body>
+
+	<center>
+		<h2 class="tex">HR MANAGER REQUIRED LOGIN TO ENTER HIS SECTION</h2>
+		<br>
+		<br>
+		<form method="POST">
+			{%csrf_token%}
+			{{form.as_p}}
+			<button>Login</button>
+		</form>
+	</center>
+
+</body>
+
+{% endblock %}
